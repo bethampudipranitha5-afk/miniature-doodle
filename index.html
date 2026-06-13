@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>AI Healthcare Assistant</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h1>AI Healthcare Assistant</h1>
+
+<div class="container">
+
+    <h2>Symptom Checker</h2>
+
+    <input type="text"
+           id="symptom"
+           placeholder="Enter symptom">
+
+    <button onclick="checkSymptom()">
+        Check
+    </button>
+
+    <p id="result"></p>
+
+    <h2>BMI Calculator</h2>
+
+    <input type="number"
+           id="weight"
+           placeholder="Weight (kg)">
+
+    <input type="number"
+           id="height"
+           placeholder="Height (cm)">
+
+    <button onclick="calculateBMI()">
+        Calculate BMI
+    </button>
+
+    <p id="bmiResult"></p>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
